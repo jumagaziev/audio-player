@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-image:  url(https://images.unsplash.com/photo-1682686581660-3693f0c588d2?q=80&w=1742&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gif img{
+    width: 400px;
+    border-radius: 20px 20px 0 0;
+}
+audio{
+    width: 400px;
+}
+.main{
+    border: 1px solid;
+    border-radius: 20px;
+    transition: 1s;
+    margin-top: 150px;
+}
+.main:hover{
+    border: 2px solid black;
+    box-shadow: 0 0 20px 20px rgb(0, 102, 255);
+    transform: scale(1.2);
+    transition: 1s;
+}
